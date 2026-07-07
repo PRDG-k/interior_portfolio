@@ -11,7 +11,8 @@
 import { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence, useScroll, useTransform, useSpring } from 'motion/react';
 import { Menu, X, ChevronRight, ChevronLeft, Instagram, Mail, MapPin, ExternalLink, ArrowDown, ArrowLeft, User } from 'lucide-react';
-import { BrowserRouter as Router, Routes, Route, Link, useParams, useNavigate, useLocation } from 'react-router-dom';
+// import { BrowserRouter as Router, Routes, Route, Link, useParams, useNavigate, useLocation } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Link, useParams, useNavigate, useLocation } from 'react-router-dom';
 import { SafeImage } from './components/SafeImage';
 
 // --- Types ---
